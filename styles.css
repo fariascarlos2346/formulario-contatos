@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: linear-gradient( to right, #feac5e, #4bc0c8, #c779d0);
+}
+
+form {
+    width: 40%;
+    min-width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0,0,0, 0.3);
+    margin: 100px auto;
+}
+
+input, textarea {
+    min-width: 320px;
+    display: block;
+    margin: 0 auto;
+    border: 8px;
+    border: 1px solid #c1c1c1;
+    margin-top: 20px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+textarea {
+    height: 200px;
+    padding-top: 15px;
+}
